@@ -1,2 +1,2 @@
 # javascript-functions
-try outs
+Here i was learning about functions.

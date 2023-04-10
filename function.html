@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Max of 3 Numbers</title>
+  </head>
+  <body>
+    <script>
+        var num1 = Number(prompt("Enter the first number:"));
+        var num2 = Number(prompt("Enter the second number:"));
+        var num3 = Number(prompt("Enter the third number:"));
+        
+        function getMax() {
+            var max = Math.max(num1, num2, num3);
+
+            return max;
+        }
+
+        var maxNum = getMax();
+        document.write("<p>The first number is " + num1 + "</p>")
+        document.write("<p>The second number is" + num2 + "</p>")
+        document.write("<p>The third number is" + num3 + "</p>")
+        document.write("<p>The maximum of the three numbers is " + maxNum + "</p>");
+    </script>
+  </body>
+</html>
